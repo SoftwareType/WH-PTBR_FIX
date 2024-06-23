@@ -43,7 +43,7 @@
       "modVersion": "Versão do Mod",
       "modAuthor": {
         "title": "Autor do Mod",
-        "homepage": "Homepage",
+        "homepage": "Página Pessoal",
         "github": "GitHub",
         "twitter": "Twitter"
       },
@@ -72,7 +72,7 @@
       "noData": "Faltam detalhes do Mod."
     },
     "settings": {
-      "title": "Consfigurações",
+      "title": "Configurações",
       "noData": "Nenhuma configuração de Mod está disponível.",
       "saveButton": "Salvar configurações",
       "sampleValue": "Valor da amostra",
@@ -80,7 +80,7 @@
       "arrayItemRemove": "Remover item"
     },
     "code": {
-      "title": "Códgo fonte",
+      "title": "Código fonte",
       "noData": "A fonte do mod está ausente.",
       "collapseExtra": "Recolher Leia-me e configurações"
     },
@@ -115,8 +115,8 @@
         "saveButton": "Salvar"
       },
       "includeExcludeCustomOnly": {
-        "title": "Ignore mod inclusion/exclusion lists",
-        "description": "Ignore the mod's process inclusion/exclusion lists and use only the custom lists above."
+        "title": "Ignorar listas de inclusão/exclusão de mods",
+        "description": "Ignorar as listas de inclusão/exclusão de processos do mod e usar apenas as listas personalizadas acima."
       }
     },
     "changes": {
@@ -131,10 +131,10 @@
     "browse": "Procurar Mods",
     "installedMods": {
       "title": "Mods Instalados",
-      "noMods": "Nenhum mod instalado"
+      "noMods": "No mods estão instalados"
     },
     "featuredMods": {
-      "title": "Mods em Destaque",
+      "title": "Featured Modss",
       "noMods": "Não há Mods em destaque que ainda não foram instalados",
       "explore": "Explorar outros Mods"
     }
@@ -155,12 +155,12 @@
       "title": "Idioma",
       "description": "Selecione seu idioma de exibição preferido para Windhawk.",
       "contribute": "<0>Contribua com uma nova tradução</0>.",
-      "credits": "Tradução para o Português Brasileiro por: <0>Cauaã Vinicius Moraes</0>.",
+      "credits": "Tradução para o Portugues Brasileiro por: <0>Cauaã Vinicius Moraes</0>.",
       "creditsLink": "mailto:cauaaviniciusmoraes@aol.com"
     },
     "updates": {
-      "title": "Checar por atualização",
-      "description": "Verifique periodicamente se há novas versões do Windhawk e dos mods instalados."
+      "title": "Verificar por atualizações",
+      "description": "Verificar periodicamente se há novas versões do Windhawk e dos mods instalados."
     },
     "devMode": {
       "title": "Modo desenvolvedor",
@@ -200,7 +200,7 @@
     "processList": {
       "titleExclusion": "Lista de exclusão de processo",
       "descriptionExclusion": "Uma lista de nomes/caminhos de processos nos quais o Windhawk não injetará. Pode ser útil para casos em que o Windhawk não é compatível com um programa específico. Observe que adicionar um processo a esta lista não apenas impedirá Windhawk de personalizá-lo, mas também impedirá Windhawk de interceptar processos filho criados por esse processo. Isso fará com que o Windhawk carregue os mods com um pequeno atraso nesses casos.",
-      "exclusionCriticalProcessesNotice": "The special <0>{{critical_system_processes}}</0> value can be added to the list to exclude critical system processes. Beware of removing it, as crashing one of these processes might lead to a BSOD.",
+      "exclusionCriticalProcessesNotice": "O valor especial <0>{{critical_system_processes}}</0> pode ser adicionado à lista para excluir processos críticos do sistema. Cuidado ao removê-lo, pois encerrar um desses processos pode dar tela azul",
       "titleInclusion": "Lista de inclusão de processos",
       "descriptionInclusion": "Uma lista de nomes/caminhos de processos nos quais o Windhawk injetará, mesmo que estejam na lista de exclusão.",
       "inclusionWithoutExclusionNotice": "A lista de inclusão de processo não tem efeito com uma lista de exclusão de processo vazia.",
@@ -208,26 +208,26 @@
       "processListPlaceholder": "Nomes/caminhos de processo, um por linha, por exemplo:"
     },
     "loadModsInCriticalSystemProcesses": {
-      "title": "Load mods in critical system processes",
-      "description": "By default, Windhawk only loads mods in critical system processes if the process is targeted explicitly, i.e. is listed without wildcards in the mod's process inclusion list.",
-      "never": "Never",
-      "onlyExplicitMatch": "Only if targeted explicitly",
-      "always": "If targeted explicitly or implicitly (not recommended)"
+      "title": "Carregar mods em processos críticos do sistema",
+      "description": "Por padrão, o Windhawk só carrega mods em processos críticos do sistema se o processo for direcionado explicitamente, ou seja, não estiver listado aleatoriamente na lista de inclusão de processos do mod.",
+      "never": "Nunca",
+      "onlyExplicitMatch": "Somente se direcionado explicitamente",
+      "always": "Se segmentado em explícito ou implicito (não recomendado)"
     }
   },
   "about": {
     "title": "Windhawk v{{version}}",
     "beta": "beta",
-    "subtitle": "O mercado de personalização para programas do Windows",
+    "subtitle": "A loja de personalizações para programas do Windows",
     "credit": "Por: <0>{{author}}</0>",
     "update": {
       "title": "Uma atualização está disponível",
       "subtitle": "Considere atualizar o Windhawk para obter os recursos e correções de bugs mais recentes",
-      "button": "mais detalhes"
+      "button": "Mais detalhes"
     },
     "links": {
       "title": "Links",
-      "homepage": "Homepage",
+      "homepage": "Site Oficial",
       "documentation": "Documentação"
     },
     "builtWith": {
@@ -243,7 +243,7 @@
     "warningTitle": "Prossiga com cautela",
     "warningDescription": "Mods maliciosos podem danificar seu computador ou violar sua privacidade. Instale mods apenas de autores em quem você confia.",
     "modAuthor": "Autor do mod",
-    "homepage": "Página pessoal",
+    "homepage": "Site Pessoal",
     "github": "GitHub",
     "twitter": "Twitter",
     "verified": "Verificado",
@@ -255,7 +255,7 @@
     "title": "Criar um novo Mod"
   },
   "devModeAction": {
-    "message": "Criar e modificar mods requer algum conhecimento de programação em C/C++ para Windows. Se você não tem certeza do que isso significa, talvez essas opções não sejam para você.",
+    "message": "Criar e modificar mods requer algum conhecimento de desenvolvimento C/C++ para Windows. Se você não tem certeza do que isso significa, talvez essas opções não sejam para você.",
     "hideOptionsCheckbox": "Ocultar todas as opções relacionadas ao desenvolvimento",
     "hideOptionsButton": "Esconder opções",
     "beginCodingButton": "Começar a codificar",
@@ -263,7 +263,7 @@
   },
   "safeMode": {
     "alert": "O Windhawk está sendo executado no modo de segurança, todas as funcionalidades de injeção de código estão desativadas.",
-    "offButton": "Sair do modo de segurança",
+    "offButton": "Desligar o modo de segurança",
     "offConfirm": "Windhawk será redefinido para aplicar as configurações.",
     "offConfirmOk": "Reiniciar Windhawk",
     "offConfirmCancel": "Cancelar"
