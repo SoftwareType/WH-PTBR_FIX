@@ -14,7 +14,7 @@
     "selectAll": "Selecionar tudo"
   },
   "appHeader": {
-    "home": "HMenu",
+    "home": "Início",
     "explore": "Explorar",
     "settings": "Configurações",
     "about": "Sobre"
@@ -131,10 +131,10 @@
     "browse": "Procurar Mods",
     "installedMods": {
       "title": "Mods Instalados",
-      "noMods": "No mods estão instalados"
+      "noMods": "Nenhum mod instalado"
     },
     "featuredMods": {
-      "title": "Featured Modss",
+      "title": "Mods em Destaque",
       "noMods": "Não há Mods em destaque que ainda não foram instalados",
       "explore": "Explorar outros Mods"
     }
@@ -152,10 +152,10 @@
   },
   "settings": {
     "language": {
-      "title": "Ingueagem",
+      "title": "Idioma",
       "description": "Selecione seu idioma de exibição preferido para Windhawk.",
       "contribute": "<0>Contribua com uma nova tradução</0>.",
-      "credits": "Tradução para o Portugues Brasileiro por: <0>Cauaã Vinicius Moraes</0>.",
+      "credits": "Tradução para o Português Brasileiro por: <0>Cauaã Vinicius Moraes</0>.",
       "creditsLink": "mailto:cauaaviniciusmoraes@aol.com"
     },
     "updates": {
@@ -240,14 +240,14 @@
   },
   "installModal": {
     "title": "Instalar {{mod}}",
-    "warningTitle": "Prossiga com cuidado",
+    "warningTitle": "Prossiga com cautela",
     "warningDescription": "Mods maliciosos podem danificar seu computador ou violar sua privacidade. Instale mods apenas de autores em quem você confia.",
     "modAuthor": "Autor do mod",
-    "homepage": "Homepage",
+    "homepage": "Página pessoal",
     "github": "GitHub",
     "twitter": "Twitter",
     "verified": "Verificado",
-    "verifiedTooltip": "Verificamos que este perfil pertence ao autor do mod, mas observe que <0>verified</0> não é o mesmo que <0>trusted</0>. Certifique-se de confiar no autor do mod ou inspecione cuidadosamente o código-fonte antes de instalar.",
+    "verifiedTooltip": "Verificamos que este perfil pertence ao autor do mod, mas observe que <0>verificado</0> não é o mesmo que <0>confiável</0>. Certifique-se de confiar no autor do mod ou inspecione cuidadosamente o código-fonte antes de instalar.",
     "acceptButton": "Aceitar os riscos e instalar",
     "cancelButton": "Cancelar"
   },
@@ -255,7 +255,7 @@
     "title": "Criar um novo Mod"
   },
   "devModeAction": {
-    "message": "CCriar e modificar mods requer algum conhecimento de desenvolvimento C/C++ para Windows. Se você não tem certeza do que isso significa, talvez essas opções não sejam para você.",
+    "message": "Criar e modificar mods requer algum conhecimento de programação em C/C++ para Windows. Se você não tem certeza do que isso significa, talvez essas opções não sejam para você.",
     "hideOptionsCheckbox": "Ocultar todas as opções relacionadas ao desenvolvimento",
     "hideOptionsButton": "Esconder opções",
     "beginCodingButton": "Começar a codificar",
@@ -263,7 +263,7 @@
   },
   "safeMode": {
     "alert": "O Windhawk está sendo executado no modo de segurança, todas as funcionalidades de injeção de código estão desativadas.",
-    "offButton": "Desligar o modo de segurança",
+    "offButton": "Sair do modo de segurança",
     "offConfirm": "Windhawk será redefinido para aplicar as configurações.",
     "offConfirmOk": "Reiniciar Windhawk",
     "offConfirmCancel": "Cancelar"
